@@ -1,0 +1,62 @@
+html{
+	height: 100%;
+	margin : 0;
+}
+body{
+	background-image: url(background.jpg);
+	margin : 0;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+nav{
+	border-bottom: 1px solid black;
+}
+.heading{
+	text-transform: uppercase;
+	font-family: 'Mochiy Pop One', sans-serif;
+	color :white;
+	text-align: center;
+	margin-top: 30px;
+}
+.signupbtn{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	transition: .3s all;
+	background-color: red;
+	border-radius: 30px;
+	padding: 10px;
+
+}
+.signupbtn:hover{
+	color : red;
+	background-color : black;
+}
+section{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	height: 75%;
+}
+.bar{
+	height: 3px;
+	width: 100px;
+	background-color: red;
+	margin-bottom: 25px;
+	border-radius: 30px;
+	transition: all .4s;
+}
+.signupdiv{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin : 0;
+}
+.signupdiv:hover .bar{
+	margin-bottom: 15px;
+	background-color: black;
+}
